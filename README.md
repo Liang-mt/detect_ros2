@@ -1,0 +1,2 @@
+# detect_ros2
+基于ros2的yolov5的opencv目标检测代码练习
