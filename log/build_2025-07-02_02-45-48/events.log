@@ -1,0 +1,345 @@
+[0.000000] (-) TimerEvent: {}
+[0.000650] (detection_launch) JobQueued: {'identifier': 'detection_launch', 'dependencies': OrderedDict()}
+[0.001483] (object_detector) JobQueued: {'identifier': 'object_detector', 'dependencies': OrderedDict()}
+[0.001648] (result_viewer) JobQueued: {'identifier': 'result_viewer', 'dependencies': OrderedDict()}
+[0.001739] (video_publisher) JobQueued: {'identifier': 'video_publisher', 'dependencies': OrderedDict()}
+[0.001802] (detection_launch) JobStarted: {'identifier': 'detection_launch'}
+[0.021794] (object_detector) JobStarted: {'identifier': 'object_detector'}
+[0.033648] (detection_launch) JobProgress: {'identifier': 'detection_launch', 'progress': 'cmake'}
+[0.036083] (detection_launch) JobProgress: {'identifier': 'detection_launch', 'progress': 'build'}
+[0.037340] (detection_launch) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lemon/Documents/detect_ros2_ws/build/detection_launch', '--', '-j2', '-l2'], 'cwd': '/home/lemon/Documents/detect_ros2_ws/build/detection_launch', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lemon'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lemon'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1726'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0eb3c4631ac8b4a7beaa869e686426b2'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lemon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lemon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lemon-virtual-machine:@/tmp/.ICE-unix/1726,unix/lemon-virtual-machine:/tmp/.ICE-unix/1726'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7bec4cce_8084_4ed6_ab68_cff022c95a31'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lemon/Documents/detect_ros2_ws/build/detection_launch'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0eb3c4631ac8b4a7beaa869e686426b2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.045563] (object_detector) JobProgress: {'identifier': 'object_detector', 'progress': 'cmake'}
+[0.047810] (object_detector) JobProgress: {'identifier': 'object_detector', 'progress': 'build'}
+[0.050472] (object_detector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lemon/Documents/detect_ros2_ws/build/object_detector', '--', '-j2', '-l2'], 'cwd': '/home/lemon/Documents/detect_ros2_ws/build/object_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lemon'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lemon'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1726'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0eb3c4631ac8b4a7beaa869e686426b2'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lemon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lemon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lemon-virtual-machine:@/tmp/.ICE-unix/1726,unix/lemon-virtual-machine:/tmp/.ICE-unix/1726'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7bec4cce_8084_4ed6_ab68_cff022c95a31'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lemon/Documents/detect_ros2_ws/build/object_detector'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0eb3c4631ac8b4a7beaa869e686426b2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100369] (-) TimerEvent: {}
+[0.200871] (-) TimerEvent: {}
+[0.301739] (-) TimerEvent: {}
+[0.325675] (detection_launch) CommandEnded: {'returncode': 0}
+[0.333621] (detection_launch) JobProgress: {'identifier': 'detection_launch', 'progress': 'install'}
+[0.346026] (detection_launch) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lemon/Documents/detect_ros2_ws/build/detection_launch'], 'cwd': '/home/lemon/Documents/detect_ros2_ws/build/detection_launch', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lemon'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lemon'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1726'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0eb3c4631ac8b4a7beaa869e686426b2'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lemon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lemon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lemon-virtual-machine:@/tmp/.ICE-unix/1726,unix/lemon-virtual-machine:/tmp/.ICE-unix/1726'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7bec4cce_8084_4ed6_ab68_cff022c95a31'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lemon/Documents/detect_ros2_ws/build/detection_launch'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0eb3c4631ac8b4a7beaa869e686426b2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.357817] (detection_launch) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.360215] (detection_launch) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/launch\n'}
+[0.360409] (detection_launch) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/launch/detection.launch.py\n'}
+[0.360515] (detection_launch) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/ament_index/resource_index/package_run_dependencies/detection_launch\n'}
+[0.360614] (detection_launch) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/ament_index/resource_index/parent_prefix_path/detection_launch\n'}
+[0.364243] (detection_launch) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/environment/ament_prefix_path.sh\n'}
+[0.364389] (detection_launch) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/environment/ament_prefix_path.dsv\n'}
+[0.364482] (detection_launch) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/environment/path.sh\n'}
+[0.364571] (detection_launch) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/environment/path.dsv\n'}
+[0.364663] (detection_launch) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/local_setup.bash\n'}
+[0.364739] (detection_launch) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/local_setup.sh\n'}
+[0.364893] (detection_launch) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/local_setup.zsh\n'}
+[0.364987] (detection_launch) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/local_setup.dsv\n'}
+[0.365076] (detection_launch) StdoutLine: {'line': b'-- Installing: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/package.dsv\n'}
+[0.365151] (detection_launch) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/ament_index/resource_index/packages/detection_launch\n'}
+[0.365226] (detection_launch) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/cmake/detection_launchConfig.cmake\n'}
+[0.365301] (detection_launch) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/cmake/detection_launchConfig-version.cmake\n'}
+[0.365376] (detection_launch) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/package.xml\n'}
+[0.365451] (detection_launch) CommandEnded: {'returncode': 0}
+[0.402895] (-) TimerEvent: {}
+[0.444369] (detection_launch) JobEnded: {'identifier': 'detection_launch', 'rc': 0}
+[0.446288] (result_viewer) JobStarted: {'identifier': 'result_viewer'}
+[0.456181] (result_viewer) JobProgress: {'identifier': 'result_viewer', 'progress': 'cmake'}
+[0.458530] (result_viewer) JobProgress: {'identifier': 'result_viewer', 'progress': 'build'}
+[0.462288] (result_viewer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lemon/Documents/detect_ros2_ws/build/result_viewer', '--', '-j2', '-l2'], 'cwd': '/home/lemon/Documents/detect_ros2_ws/build/result_viewer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lemon'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lemon'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1726'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0eb3c4631ac8b4a7beaa869e686426b2'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lemon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lemon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lemon-virtual-machine:@/tmp/.ICE-unix/1726,unix/lemon-virtual-machine:/tmp/.ICE-unix/1726'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7bec4cce_8084_4ed6_ab68_cff022c95a31'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lemon/Documents/detect_ros2_ws/build/result_viewer'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0eb3c4631ac8b4a7beaa869e686426b2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.503265] (-) TimerEvent: {}
+[0.562620] (object_detector) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/object_detection_node.dir/src/object_detection_node.cpp.o\x1b[0m\n'}
+[0.603397] (-) TimerEvent: {}
+[0.704886] (-) TimerEvent: {}
+[0.752540] (result_viewer) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/result_viewer_node.dir/src/result_viewer_node.cpp.o\x1b[0m\n'}
+[0.808054] (-) TimerEvent: {}
+[0.909359] (-) TimerEvent: {}
+[1.011295] (-) TimerEvent: {}
+[1.112352] (-) TimerEvent: {}
+[1.213187] (-) TimerEvent: {}
+[1.315409] (-) TimerEvent: {}
+[1.415873] (-) TimerEvent: {}
+[1.516245] (-) TimerEvent: {}
+[1.616812] (-) TimerEvent: {}
+[1.717336] (-) TimerEvent: {}
+[1.818846] (-) TimerEvent: {}
+[1.919439] (-) TimerEvent: {}
+[2.021643] (-) TimerEvent: {}
+[2.122913] (-) TimerEvent: {}
+[2.224311] (-) TimerEvent: {}
+[2.327374] (-) TimerEvent: {}
+[2.428069] (-) TimerEvent: {}
+[2.528644] (-) TimerEvent: {}
+[2.629375] (-) TimerEvent: {}
+[2.729865] (-) TimerEvent: {}
+[2.832599] (-) TimerEvent: {}
+[2.933018] (-) TimerEvent: {}
+[3.033762] (-) TimerEvent: {}
+[3.134264] (-) TimerEvent: {}
+[3.234766] (-) TimerEvent: {}
+[3.335470] (-) TimerEvent: {}
+[3.437391] (-) TimerEvent: {}
+[3.537841] (-) TimerEvent: {}
+[3.638300] (-) TimerEvent: {}
+[3.739160] (-) TimerEvent: {}
+[3.839677] (-) TimerEvent: {}
+[3.941692] (-) TimerEvent: {}
+[4.042506] (-) TimerEvent: {}
+[4.143691] (-) TimerEvent: {}
+[4.244749] (-) TimerEvent: {}
+[4.345944] (-) TimerEvent: {}
+[4.447496] (-) TimerEvent: {}
+[4.547928] (-) TimerEvent: {}
+[4.648886] (-) TimerEvent: {}
+[4.750605] (-) TimerEvent: {}
+[4.853792] (-) TimerEvent: {}
+[4.958411] (-) TimerEvent: {}
+[5.061683] (-) TimerEvent: {}
+[5.162536] (-) TimerEvent: {}
+[5.263935] (-) TimerEvent: {}
+[5.366556] (-) TimerEvent: {}
+[5.467340] (-) TimerEvent: {}
+[5.568179] (-) TimerEvent: {}
+[5.669024] (-) TimerEvent: {}
+[5.771299] (-) TimerEvent: {}
+[5.874482] (-) TimerEvent: {}
+[5.975484] (-) TimerEvent: {}
+[6.077537] (-) TimerEvent: {}
+[6.181286] (-) TimerEvent: {}
+[6.286019] (-) TimerEvent: {}
+[6.387044] (-) TimerEvent: {}
+[6.488052] (-) TimerEvent: {}
+[6.589086] (-) TimerEvent: {}
+[6.690225] (-) TimerEvent: {}
+[6.791175] (-) TimerEvent: {}
+[6.891709] (-) TimerEvent: {}
+[6.994771] (-) TimerEvent: {}
+[7.095657] (-) TimerEvent: {}
+[7.196551] (-) TimerEvent: {}
+[7.297029] (-) TimerEvent: {}
+[7.397940] (-) TimerEvent: {}
+[7.498449] (-) TimerEvent: {}
+[7.598894] (-) TimerEvent: {}
+[7.699540] (-) TimerEvent: {}
+[7.800590] (-) TimerEvent: {}
+[7.901738] (-) TimerEvent: {}
+[8.003318] (-) TimerEvent: {}
+[8.106536] (-) TimerEvent: {}
+[8.207457] (-) TimerEvent: {}
+[8.308252] (-) TimerEvent: {}
+[8.409059] (-) TimerEvent: {}
+[8.509794] (-) TimerEvent: {}
+[8.611042] (-) TimerEvent: {}
+[8.713224] (-) TimerEvent: {}
+[8.814170] (-) TimerEvent: {}
+[8.915075] (-) TimerEvent: {}
+[9.015426] (-) TimerEvent: {}
+[9.117026] (-) TimerEvent: {}
+[9.218226] (-) TimerEvent: {}
+[9.320007] (-) TimerEvent: {}
+[9.420854] (-) TimerEvent: {}
+[9.521898] (-) TimerEvent: {}
+[9.622709] (-) TimerEvent: {}
+[9.724561] (-) TimerEvent: {}
+[9.825544] (-) TimerEvent: {}
+[9.926657] (-) TimerEvent: {}
+[10.027061] (-) TimerEvent: {}
+[10.129801] (-) TimerEvent: {}
+[10.230603] (-) TimerEvent: {}
+[10.331558] (-) TimerEvent: {}
+[10.432500] (-) TimerEvent: {}
+[10.534788] (-) TimerEvent: {}
+[10.635291] (-) TimerEvent: {}
+[10.735937] (-) TimerEvent: {}
+[10.836554] (-) TimerEvent: {}
+[10.938398] (-) TimerEvent: {}
+[11.039096] (-) TimerEvent: {}
+[11.139569] (-) TimerEvent: {}
+[11.242819] (-) TimerEvent: {}
+[11.343226] (-) TimerEvent: {}
+[11.444015] (-) TimerEvent: {}
+[11.545150] (-) TimerEvent: {}
+[11.646051] (-) TimerEvent: {}
+[11.747214] (-) TimerEvent: {}
+[11.848570] (-) TimerEvent: {}
+[11.949808] (-) TimerEvent: {}
+[12.051785] (-) TimerEvent: {}
+[12.152507] (-) TimerEvent: {}
+[12.254636] (-) TimerEvent: {}
+[12.356040] (-) TimerEvent: {}
+[12.459258] (-) TimerEvent: {}
+[12.560384] (-) TimerEvent: {}
+[12.664492] (-) TimerEvent: {}
+[12.766225] (-) TimerEvent: {}
+[12.823074] (object_detector) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable object_detection_node\x1b[0m\n'}
+[12.866551] (-) TimerEvent: {}
+[12.967094] (-) TimerEvent: {}
+[13.069648] (-) TimerEvent: {}
+[13.171134] (-) TimerEvent: {}
+[13.272095] (-) TimerEvent: {}
+[13.373200] (-) TimerEvent: {}
+[13.475784] (-) TimerEvent: {}
+[13.576158] (-) TimerEvent: {}
+[13.677801] (-) TimerEvent: {}
+[13.778584] (-) TimerEvent: {}
+[13.880411] (-) TimerEvent: {}
+[13.981142] (-) TimerEvent: {}
+[14.082155] (-) TimerEvent: {}
+[14.184644] (-) TimerEvent: {}
+[14.285443] (-) TimerEvent: {}
+[14.386717] (-) TimerEvent: {}
+[14.487325] (-) TimerEvent: {}
+[14.581515] (object_detector) StdoutLine: {'line': b'[100%] Built target object_detection_node\n'}
+[14.587798] (-) TimerEvent: {}
+[14.596420] (object_detector) CommandEnded: {'returncode': 0}
+[14.602862] (object_detector) JobProgress: {'identifier': 'object_detector', 'progress': 'install'}
+[14.602974] (object_detector) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lemon/Documents/detect_ros2_ws/build/object_detector'], 'cwd': '/home/lemon/Documents/detect_ros2_ws/build/object_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lemon'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lemon'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1726'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0eb3c4631ac8b4a7beaa869e686426b2'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lemon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lemon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lemon-virtual-machine:@/tmp/.ICE-unix/1726,unix/lemon-virtual-machine:/tmp/.ICE-unix/1726'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7bec4cce_8084_4ed6_ab68_cff022c95a31'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lemon/Documents/detect_ros2_ws/build/object_detector'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0eb3c4631ac8b4a7beaa869e686426b2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[14.614565] (object_detector) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.619600] (object_detector) StdoutLine: {'line': b'-- Installing: /home/lemon/Documents/detect_ros2_ws/install/object_detector/lib/object_detector/object_detection_node\n'}
+[14.630020] (object_detector) StdoutLine: {'line': b'-- Set runtime path of "/home/lemon/Documents/detect_ros2_ws/install/object_detector/lib/object_detector/object_detection_node" to ""\n'}
+[14.631611] (object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/ament_index/resource_index/package_run_dependencies/object_detector\n'}
+[14.632933] (object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/ament_index/resource_index/parent_prefix_path/object_detector\n'}
+[14.634505] (object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/environment/ament_prefix_path.sh\n'}
+[14.635836] (object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/environment/ament_prefix_path.dsv\n'}
+[14.635986] (object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/environment/path.sh\n'}
+[14.636071] (object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/environment/path.dsv\n'}
+[14.636171] (object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/local_setup.bash\n'}
+[14.636285] (object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/local_setup.sh\n'}
+[14.636364] (object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/local_setup.zsh\n'}
+[14.636443] (object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/local_setup.dsv\n'}
+[14.636521] (object_detector) StdoutLine: {'line': b'-- Installing: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/package.dsv\n'}
+[14.636599] (object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/ament_index/resource_index/packages/object_detector\n'}
+[14.641675] (object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/cmake/object_detectorConfig.cmake\n'}
+[14.642481] (object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/cmake/object_detectorConfig-version.cmake\n'}
+[14.642621] (object_detector) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/package.xml\n'}
+[14.646185] (object_detector) CommandEnded: {'returncode': 0}
+[14.688235] (-) TimerEvent: {}
+[14.718526] (object_detector) JobEnded: {'identifier': 'object_detector', 'rc': 0}
+[14.721661] (video_publisher) JobStarted: {'identifier': 'video_publisher'}
+[14.732044] (video_publisher) JobProgress: {'identifier': 'video_publisher', 'progress': 'cmake'}
+[14.736705] (video_publisher) JobProgress: {'identifier': 'video_publisher', 'progress': 'build'}
+[14.736926] (video_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lemon/Documents/detect_ros2_ws/build/video_publisher', '--', '-j2', '-l2'], 'cwd': '/home/lemon/Documents/detect_ros2_ws/build/video_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lemon'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lemon'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1726'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0eb3c4631ac8b4a7beaa869e686426b2'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lemon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lemon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lemon-virtual-machine:@/tmp/.ICE-unix/1726,unix/lemon-virtual-machine:/tmp/.ICE-unix/1726'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7bec4cce_8084_4ed6_ab68_cff022c95a31'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lemon/Documents/detect_ros2_ws/build/video_publisher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0eb3c4631ac8b4a7beaa869e686426b2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[14.789155] (-) TimerEvent: {}
+[14.886125] (video_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/video_publisher_node.dir/src/video_publisher_node.cpp.o\x1b[0m\n'}
+[14.889469] (-) TimerEvent: {}
+[14.991603] (-) TimerEvent: {}
+[15.094875] (-) TimerEvent: {}
+[15.195281] (-) TimerEvent: {}
+[15.296105] (-) TimerEvent: {}
+[15.396536] (-) TimerEvent: {}
+[15.497003] (-) TimerEvent: {}
+[15.597516] (-) TimerEvent: {}
+[15.698764] (-) TimerEvent: {}
+[15.799906] (-) TimerEvent: {}
+[15.903277] (-) TimerEvent: {}
+[16.004160] (-) TimerEvent: {}
+[16.105149] (-) TimerEvent: {}
+[16.206040] (-) TimerEvent: {}
+[16.307310] (-) TimerEvent: {}
+[16.408440] (-) TimerEvent: {}
+[16.512145] (-) TimerEvent: {}
+[16.613389] (-) TimerEvent: {}
+[16.714493] (-) TimerEvent: {}
+[16.815262] (-) TimerEvent: {}
+[16.918714] (-) TimerEvent: {}
+[17.019125] (-) TimerEvent: {}
+[17.124556] (-) TimerEvent: {}
+[17.225234] (-) TimerEvent: {}
+[17.326368] (-) TimerEvent: {}
+[17.427476] (-) TimerEvent: {}
+[17.530954] (-) TimerEvent: {}
+[17.621753] (result_viewer) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable result_viewer_node\x1b[0m\n'}
+[17.631769] (-) TimerEvent: {}
+[17.732888] (-) TimerEvent: {}
+[17.833591] (-) TimerEvent: {}
+[17.934741] (-) TimerEvent: {}
+[18.035790] (-) TimerEvent: {}
+[18.137683] (-) TimerEvent: {}
+[18.238585] (-) TimerEvent: {}
+[18.339786] (-) TimerEvent: {}
+[18.443644] (-) TimerEvent: {}
+[18.544417] (-) TimerEvent: {}
+[18.645592] (-) TimerEvent: {}
+[18.746559] (-) TimerEvent: {}
+[18.847313] (-) TimerEvent: {}
+[18.948212] (-) TimerEvent: {}
+[19.049328] (-) TimerEvent: {}
+[19.140514] (result_viewer) StdoutLine: {'line': b'[100%] Built target result_viewer_node\n'}
+[19.149936] (-) TimerEvent: {}
+[19.157175] (result_viewer) CommandEnded: {'returncode': 0}
+[19.161163] (result_viewer) JobProgress: {'identifier': 'result_viewer', 'progress': 'install'}
+[19.161895] (result_viewer) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lemon/Documents/detect_ros2_ws/build/result_viewer'], 'cwd': '/home/lemon/Documents/detect_ros2_ws/build/result_viewer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lemon'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lemon'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1726'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0eb3c4631ac8b4a7beaa869e686426b2'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lemon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lemon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lemon-virtual-machine:@/tmp/.ICE-unix/1726,unix/lemon-virtual-machine:/tmp/.ICE-unix/1726'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7bec4cce_8084_4ed6_ab68_cff022c95a31'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lemon/Documents/detect_ros2_ws/build/result_viewer'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0eb3c4631ac8b4a7beaa869e686426b2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[19.175117] (result_viewer) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.179644] (result_viewer) StdoutLine: {'line': b'-- Installing: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/lib/result_viewer/result_viewer_node\n'}
+[19.210511] (result_viewer) StdoutLine: {'line': b'-- Set runtime path of "/home/lemon/Documents/detect_ros2_ws/install/result_viewer/lib/result_viewer/result_viewer_node" to ""\n'}
+[19.211908] (result_viewer) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/ament_index/resource_index/package_run_dependencies/result_viewer\n'}
+[19.212809] (result_viewer) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/ament_index/resource_index/parent_prefix_path/result_viewer\n'}
+[19.212921] (result_viewer) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/environment/ament_prefix_path.sh\n'}
+[19.213007] (result_viewer) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/environment/ament_prefix_path.dsv\n'}
+[19.213089] (result_viewer) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/environment/path.sh\n'}
+[19.213172] (result_viewer) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/environment/path.dsv\n'}
+[19.213285] (result_viewer) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/local_setup.bash\n'}
+[19.213371] (result_viewer) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/local_setup.sh\n'}
+[19.216535] (result_viewer) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/local_setup.zsh\n'}
+[19.217086] (result_viewer) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/local_setup.dsv\n'}
+[19.217206] (result_viewer) StdoutLine: {'line': b'-- Installing: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/package.dsv\n'}
+[19.217285] (result_viewer) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/ament_index/resource_index/packages/result_viewer\n'}
+[19.218867] (result_viewer) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/cmake/result_viewerConfig.cmake\n'}
+[19.219062] (result_viewer) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/cmake/result_viewerConfig-version.cmake\n'}
+[19.219775] (result_viewer) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/package.xml\n'}
+[19.224884] (result_viewer) CommandEnded: {'returncode': 0}
+[19.250340] (-) TimerEvent: {}
+[19.266181] (result_viewer) JobEnded: {'identifier': 'result_viewer', 'rc': 0}
+[19.350953] (-) TimerEvent: {}
+[19.451891] (-) TimerEvent: {}
+[19.552977] (-) TimerEvent: {}
+[19.653613] (-) TimerEvent: {}
+[19.754464] (-) TimerEvent: {}
+[19.855768] (-) TimerEvent: {}
+[19.956616] (-) TimerEvent: {}
+[20.057515] (-) TimerEvent: {}
+[20.158342] (-) TimerEvent: {}
+[20.260148] (-) TimerEvent: {}
+[20.361655] (-) TimerEvent: {}
+[20.462935] (-) TimerEvent: {}
+[20.563996] (-) TimerEvent: {}
+[20.665467] (-) TimerEvent: {}
+[20.766004] (-) TimerEvent: {}
+[20.867493] (-) TimerEvent: {}
+[20.968453] (-) TimerEvent: {}
+[21.069085] (-) TimerEvent: {}
+[21.170335] (-) TimerEvent: {}
+[21.271289] (-) TimerEvent: {}
+[21.372458] (-) TimerEvent: {}
+[21.473821] (-) TimerEvent: {}
+[21.560741] (video_publisher) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable video_publisher_node\x1b[0m\n'}
+[21.576952] (-) TimerEvent: {}
+[21.678384] (-) TimerEvent: {}
+[21.779259] (-) TimerEvent: {}
+[21.880946] (-) TimerEvent: {}
+[21.981708] (-) TimerEvent: {}
+[22.082379] (-) TimerEvent: {}
+[22.182842] (-) TimerEvent: {}
+[22.283818] (-) TimerEvent: {}
+[22.385391] (-) TimerEvent: {}
+[22.482135] (video_publisher) StdoutLine: {'line': b'[100%] Built target video_publisher_node\n'}
+[22.488706] (-) TimerEvent: {}
+[22.503379] (video_publisher) CommandEnded: {'returncode': 0}
+[22.506484] (video_publisher) JobProgress: {'identifier': 'video_publisher', 'progress': 'install'}
+[22.508655] (video_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lemon/Documents/detect_ros2_ws/build/video_publisher'], 'cwd': '/home/lemon/Documents/detect_ros2_ws/build/video_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lemon'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lemon'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1726'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0eb3c4631ac8b4a7beaa869e686426b2'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lemon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lemon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lemon-virtual-machine:@/tmp/.ICE-unix/1726,unix/lemon-virtual-machine:/tmp/.ICE-unix/1726'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7bec4cce_8084_4ed6_ab68_cff022c95a31'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lemon/Documents/detect_ros2_ws/build/video_publisher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0eb3c4631ac8b4a7beaa869e686426b2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[22.519910] (video_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.522511] (video_publisher) StdoutLine: {'line': b'-- Installing: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/lib/video_publisher/video_publisher_node\n'}
+[22.523184] (video_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/lemon/Documents/detect_ros2_ws/install/video_publisher/lib/video_publisher/video_publisher_node" to ""\n'}
+[22.523657] (video_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/ament_index/resource_index/package_run_dependencies/video_publisher\n'}
+[22.523978] (video_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/ament_index/resource_index/parent_prefix_path/video_publisher\n'}
+[22.524280] (video_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/environment/ament_prefix_path.sh\n'}
+[22.524630] (video_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/environment/ament_prefix_path.dsv\n'}
+[22.525211] (video_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/environment/path.sh\n'}
+[22.525532] (video_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/environment/path.dsv\n'}
+[22.525859] (video_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/local_setup.bash\n'}
+[22.526131] (video_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/local_setup.sh\n'}
+[22.526362] (video_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/local_setup.zsh\n'}
+[22.526501] (video_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/local_setup.dsv\n'}
+[22.527321] (video_publisher) StdoutLine: {'line': b'-- Installing: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/package.dsv\n'}
+[22.527510] (video_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/ament_index/resource_index/packages/video_publisher\n'}
+[22.527732] (video_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/cmake/video_publisherConfig.cmake\n'}
+[22.527954] (video_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/cmake/video_publisherConfig-version.cmake\n'}
+[22.528174] (video_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/package.xml\n'}
+[22.534195] (video_publisher) CommandEnded: {'returncode': 0}
+[22.556560] (video_publisher) JobEnded: {'identifier': 'video_publisher', 'rc': 0}
+[22.557591] (-) EventReactorShutdown: {}

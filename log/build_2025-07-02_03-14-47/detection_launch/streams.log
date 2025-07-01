@@ -1,0 +1,22 @@
+[0.034s] Invoking command in '/home/lemon/Documents/detect_ros2_ws/build/detection_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lemon/Documents/detect_ros2_ws/build/detection_launch -- -j2 -l2
+[0.097s] Invoked command in '/home/lemon/Documents/detect_ros2_ws/build/detection_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lemon/Documents/detect_ros2_ws/build/detection_launch -- -j2 -l2
+[0.144s] Invoking command in '/home/lemon/Documents/detect_ros2_ws/build/detection_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lemon/Documents/detect_ros2_ws/build/detection_launch
+[0.161s] -- Install configuration: ""
+[0.161s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/launch
+[0.163s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/launch/detection.launch.py
+[0.165s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/ament_index/resource_index/package_run_dependencies/detection_launch
+[0.166s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/ament_index/resource_index/parent_prefix_path/detection_launch
+[0.166s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/environment/ament_prefix_path.sh
+[0.166s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/environment/ament_prefix_path.dsv
+[0.166s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/environment/path.sh
+[0.166s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/environment/path.dsv
+[0.170s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/local_setup.bash
+[0.171s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/local_setup.sh
+[0.171s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/local_setup.zsh
+[0.171s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/local_setup.dsv
+[0.172s] -- Installing: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/package.dsv
+[0.172s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/ament_index/resource_index/packages/detection_launch
+[0.176s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/cmake/detection_launchConfig.cmake
+[0.177s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/cmake/detection_launchConfig-version.cmake
+[0.179s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/package.xml
+[0.180s] Invoked command in '/home/lemon/Documents/detect_ros2_ws/build/detection_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lemon/Documents/detect_ros2_ws/build/detection_launch

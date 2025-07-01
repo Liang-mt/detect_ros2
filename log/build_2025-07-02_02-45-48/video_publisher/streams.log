@@ -1,0 +1,25 @@
+[0.018s] Invoking command in '/home/lemon/Documents/detect_ros2_ws/build/video_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lemon/Documents/detect_ros2_ws/build/video_publisher -- -j2 -l2
+[0.165s] [ 50%] [32mBuilding CXX object CMakeFiles/video_publisher_node.dir/src/video_publisher_node.cpp.o[0m
+[6.839s] [100%] [32m[1mLinking CXX executable video_publisher_node[0m
+[7.760s] [100%] Built target video_publisher_node
+[7.782s] Invoked command in '/home/lemon/Documents/detect_ros2_ws/build/video_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lemon/Documents/detect_ros2_ws/build/video_publisher -- -j2 -l2
+[7.787s] Invoking command in '/home/lemon/Documents/detect_ros2_ws/build/video_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lemon/Documents/detect_ros2_ws/build/video_publisher
+[7.798s] -- Install configuration: ""
+[7.801s] -- Installing: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/lib/video_publisher/video_publisher_node
+[7.801s] -- Set runtime path of "/home/lemon/Documents/detect_ros2_ws/install/video_publisher/lib/video_publisher/video_publisher_node" to ""
+[7.802s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/ament_index/resource_index/package_run_dependencies/video_publisher
+[7.802s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/ament_index/resource_index/parent_prefix_path/video_publisher
+[7.803s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/environment/ament_prefix_path.sh
+[7.803s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/environment/ament_prefix_path.dsv
+[7.803s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/environment/path.sh
+[7.804s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/environment/path.dsv
+[7.804s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/local_setup.bash
+[7.804s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/local_setup.sh
+[7.805s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/local_setup.zsh
+[7.805s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/local_setup.dsv
+[7.806s] -- Installing: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/package.dsv
+[7.806s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/ament_index/resource_index/packages/video_publisher
+[7.806s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/cmake/video_publisherConfig.cmake
+[7.806s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/cmake/video_publisherConfig-version.cmake
+[7.806s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/package.xml
+[7.813s] Invoked command in '/home/lemon/Documents/detect_ros2_ws/build/video_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lemon/Documents/detect_ros2_ws/build/video_publisher

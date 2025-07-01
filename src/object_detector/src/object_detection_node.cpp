@@ -25,8 +25,7 @@ void ObjectDetector::init() {
     it_ = std::make_shared<image_transport::ImageTransport>(shared_from_this());
     
     // 订阅和发布
-    image_sub_ = it_->subscribe("camera/image_raw", 1, 
-                              std::bind(&ObjectDetector::image_callback, this, _1));
+    image_sub_ = it_->subscribe("camera/image_raw", 1, std::bind(&ObjectDetector::image_callback, this, _1));
     detection_pub_ = create_publisher<vision_msgs::msg::Detection2DArray>("detections", 10);
     result_image_pub_ = it_->advertise("detection_result", 1);
 }
@@ -249,11 +248,11 @@ void ObjectDetector::image_callback(const sensor_msgs::msg::Image::ConstSharedPt
             detection_pub_->publish(detections_msg);
             
             // 绘制边界框
-            draw_boxes(frame2, detections);
+            //draw_boxes(frame2, detections);
         }
         
         // 发布带检测结果的图像
-        auto result_msg = cv_bridge::CvImage(msg->header, "bgr8", frame2).toImageMsg();
+        auto result_msg = cv_bridge::CvImage(msg->header, "bgr8", frame).toImageMsg();
         result_image_pub_.publish(result_msg);
     } catch (cv_bridge::Exception& e) {
         RCLCPP_ERROR(get_logger(), "cv_bridge exception: %s", e.what());

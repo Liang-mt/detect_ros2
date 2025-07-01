@@ -1,0 +1,330 @@
+[0.147s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.147s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x732e6281f8e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x732e6296cca0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x732e6296cca0>>)
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.373s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lemon/Documents/detect_ros2_ws'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/detection_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/detection_launch) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/detection_launch) by extension 'ignore_ament_install'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/detection_launch) by extensions ['colcon_pkg']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/detection_launch) by extension 'colcon_pkg'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/detection_launch) by extensions ['colcon_meta']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/detection_launch) by extension 'colcon_meta'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/detection_launch) by extensions ['ros']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/detection_launch) by extension 'ros'
+[0.394s] DEBUG:colcon.colcon_core.package_identification:Package 'src/detection_launch' with type 'ros.ament_cmake' and name 'detection_launch'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detector) by extension 'ignore'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detector) by extension 'ignore_ament_install'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detector) by extensions ['colcon_pkg']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detector) by extension 'colcon_pkg'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detector) by extensions ['colcon_meta']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detector) by extension 'colcon_meta'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detector) by extensions ['ros']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detector) by extension 'ros'
+[0.397s] DEBUG:colcon.colcon_core.package_identification:Package 'src/object_detector' with type 'ros.ament_cmake' and name 'object_detector'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/result_viewer) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/result_viewer) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/result_viewer) by extension 'ignore_ament_install'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/result_viewer) by extensions ['colcon_pkg']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/result_viewer) by extension 'colcon_pkg'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/result_viewer) by extensions ['colcon_meta']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/result_viewer) by extension 'colcon_meta'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/result_viewer) by extensions ['ros']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/result_viewer) by extension 'ros'
+[0.399s] DEBUG:colcon.colcon_core.package_identification:Package 'src/result_viewer' with type 'ros.ament_cmake' and name 'result_viewer'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_publisher) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_publisher) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_publisher) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_publisher) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_publisher) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_publisher) by extension 'colcon_meta'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_publisher) by extensions ['ros']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_publisher) by extension 'ros'
+[0.401s] DEBUG:colcon.colcon_core.package_identification:Package 'src/video_publisher' with type 'ros.ament_cmake' and name 'video_publisher'
+[0.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.433s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 340 installed packages in /opt/ros/humble
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'detection_launch' build argument 'cmake_args' from command line to 'None'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'detection_launch' build argument 'cmake_target' from command line to 'None'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'detection_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'detection_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'detection_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'detection_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'detection_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'detection_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'detection_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.521s] DEBUG:colcon.colcon_core.verb:Building package 'detection_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lemon/Documents/detect_ros2_ws/build/detection_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lemon/Documents/detect_ros2_ws/install/detection_launch', 'merge_install': False, 'path': '/home/lemon/Documents/detect_ros2_ws/src/detection_launch', 'symlink_install': False, 'test_result_base': None}
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'object_detector' build argument 'cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'object_detector' build argument 'cmake_target' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'object_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'object_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'object_detector' build argument 'cmake_clean_first' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'object_detector' build argument 'cmake_force_configure' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'object_detector' build argument 'ament_cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'object_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'object_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.521s] DEBUG:colcon.colcon_core.verb:Building package 'object_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lemon/Documents/detect_ros2_ws/build/object_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lemon/Documents/detect_ros2_ws/install/object_detector', 'merge_install': False, 'path': '/home/lemon/Documents/detect_ros2_ws/src/object_detector', 'symlink_install': False, 'test_result_base': None}
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'result_viewer' build argument 'cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'result_viewer' build argument 'cmake_target' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'result_viewer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'result_viewer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'result_viewer' build argument 'cmake_clean_first' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'result_viewer' build argument 'cmake_force_configure' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'result_viewer' build argument 'ament_cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'result_viewer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'result_viewer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.522s] DEBUG:colcon.colcon_core.verb:Building package 'result_viewer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lemon/Documents/detect_ros2_ws/build/result_viewer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lemon/Documents/detect_ros2_ws/install/result_viewer', 'merge_install': False, 'path': '/home/lemon/Documents/detect_ros2_ws/src/result_viewer', 'symlink_install': False, 'test_result_base': None}
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'video_publisher' build argument 'cmake_args' from command line to 'None'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'video_publisher' build argument 'cmake_target' from command line to 'None'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'video_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'video_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'video_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'video_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'video_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'video_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'video_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.523s] DEBUG:colcon.colcon_core.verb:Building package 'video_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lemon/Documents/detect_ros2_ws/build/video_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lemon/Documents/detect_ros2_ws/install/video_publisher', 'merge_install': False, 'path': '/home/lemon/Documents/detect_ros2_ws/src/video_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.523s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.525s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.525s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lemon/Documents/detect_ros2_ws/src/detection_launch' with build type 'ament_cmake'
+[0.525s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lemon/Documents/detect_ros2_ws/src/detection_launch'
+[0.530s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.531s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.531s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.537s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lemon/Documents/detect_ros2_ws/src/object_detector' with build type 'ament_cmake'
+[0.538s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lemon/Documents/detect_ros2_ws/src/object_detector'
+[0.539s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.539s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lemon/Documents/detect_ros2_ws/build/detection_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lemon/Documents/detect_ros2_ws/build/detection_launch -- -j2 -l2
+[0.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lemon/Documents/detect_ros2_ws/build/object_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lemon/Documents/detect_ros2_ws/build/object_detector -- -j2 -l2
+[0.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lemon/Documents/detect_ros2_ws/build/detection_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lemon/Documents/detect_ros2_ws/build/detection_launch -- -j2 -l2
+[0.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lemon/Documents/detect_ros2_ws/build/detection_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lemon/Documents/detect_ros2_ws/build/detection_launch
+[0.707s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(detection_launch)
+[0.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lemon/Documents/detect_ros2_ws/build/detection_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lemon/Documents/detect_ros2_ws/build/detection_launch
+[0.723s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/detection_launch' for CMake module files
+[0.723s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/detection_launch' for CMake config files
+[0.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('detection_launch', 'cmake_prefix_path')
+[0.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/hook/cmake_prefix_path.ps1'
+[0.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/hook/cmake_prefix_path.dsv'
+[0.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/hook/cmake_prefix_path.sh'
+[0.730s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/detection_launch/bin'
+[0.730s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/detection_launch/lib/pkgconfig/detection_launch.pc'
+[0.731s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/detection_launch/lib/python3.10/site-packages'
+[0.731s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/detection_launch/bin'
+[0.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/package.ps1'
+[0.736s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/package.dsv'
+[0.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/package.sh'
+[0.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/package.bash'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/package.zsh'
+[0.743s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/colcon-core/packages/detection_launch)
+[0.745s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(detection_launch)
+[0.746s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/detection_launch' for CMake module files
+[0.751s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/detection_launch' for CMake config files
+[0.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('detection_launch', 'cmake_prefix_path')
+[0.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/hook/cmake_prefix_path.ps1'
+[0.755s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/hook/cmake_prefix_path.dsv'
+[0.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/hook/cmake_prefix_path.sh'
+[0.763s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/detection_launch/bin'
+[0.763s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/detection_launch/lib/pkgconfig/detection_launch.pc'
+[0.764s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/detection_launch/lib/python3.10/site-packages'
+[0.765s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/detection_launch/bin'
+[0.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/package.ps1'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/package.dsv'
+[0.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/package.sh'
+[0.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/package.bash'
+[0.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/package.zsh'
+[0.783s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/colcon-core/packages/detection_launch)
+[0.788s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lemon/Documents/detect_ros2_ws/src/result_viewer' with build type 'ament_cmake'
+[0.788s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lemon/Documents/detect_ros2_ws/src/result_viewer'
+[0.788s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.790s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lemon/Documents/detect_ros2_ws/build/result_viewer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lemon/Documents/detect_ros2_ws/build/result_viewer -- -j2 -l2
+[0.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lemon/Documents/detect_ros2_ws/build/object_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lemon/Documents/detect_ros2_ws/build/object_detector -- -j2 -l2
+[0.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lemon/Documents/detect_ros2_ws/build/object_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lemon/Documents/detect_ros2_ws/build/object_detector
+[0.857s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(object_detector)
+[0.857s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/object_detector' for CMake module files
+[0.858s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/object_detector' for CMake config files
+[0.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_detector', 'cmake_prefix_path')
+[0.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/hook/cmake_prefix_path.ps1'
+[0.861s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/hook/cmake_prefix_path.dsv'
+[0.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/hook/cmake_prefix_path.sh'
+[0.869s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lemon/Documents/detect_ros2_ws/build/object_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lemon/Documents/detect_ros2_ws/build/object_detector
+[0.876s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/object_detector/lib'
+[0.876s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/object_detector/bin'
+[0.876s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/object_detector/lib/pkgconfig/object_detector.pc'
+[0.877s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/object_detector/lib/python3.10/site-packages'
+[0.877s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/object_detector/bin'
+[0.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/package.ps1'
+[0.890s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/package.dsv'
+[0.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/package.sh'
+[0.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/package.bash'
+[0.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/package.zsh'
+[0.904s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lemon/Documents/detect_ros2_ws/install/object_detector/share/colcon-core/packages/object_detector)
+[0.907s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(object_detector)
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/object_detector' for CMake module files
+[0.911s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/object_detector' for CMake config files
+[0.911s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_detector', 'cmake_prefix_path')
+[0.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/hook/cmake_prefix_path.ps1'
+[0.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/hook/cmake_prefix_path.dsv'
+[0.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/hook/cmake_prefix_path.sh'
+[0.925s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/object_detector/lib'
+[0.926s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/object_detector/bin'
+[0.926s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/object_detector/lib/pkgconfig/object_detector.pc'
+[0.927s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/object_detector/lib/python3.10/site-packages'
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/object_detector/bin'
+[0.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/package.ps1'
+[0.931s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/package.dsv'
+[0.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/package.sh'
+[0.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/package.bash'
+[0.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/package.zsh'
+[0.939s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lemon/Documents/detect_ros2_ws/install/object_detector/share/colcon-core/packages/object_detector)
+[0.940s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lemon/Documents/detect_ros2_ws/src/video_publisher' with build type 'ament_cmake'
+[0.941s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lemon/Documents/detect_ros2_ws/src/video_publisher'
+[0.941s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.942s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.985s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lemon/Documents/detect_ros2_ws/build/video_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lemon/Documents/detect_ros2_ws/build/video_publisher -- -j2 -l2
+[1.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lemon/Documents/detect_ros2_ws/build/result_viewer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lemon/Documents/detect_ros2_ws/build/result_viewer -- -j2 -l2
+[1.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lemon/Documents/detect_ros2_ws/build/result_viewer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lemon/Documents/detect_ros2_ws/build/result_viewer
+[1.185s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(result_viewer)
+[1.185s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/result_viewer' for CMake module files
+[1.186s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/result_viewer' for CMake config files
+[1.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lemon/Documents/detect_ros2_ws/build/result_viewer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lemon/Documents/detect_ros2_ws/build/result_viewer
+[1.189s] Level 1:colcon.colcon_core.shell:create_environment_hook('result_viewer', 'cmake_prefix_path')
+[1.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/hook/cmake_prefix_path.ps1'
+[1.193s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/hook/cmake_prefix_path.dsv'
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/hook/cmake_prefix_path.sh'
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/result_viewer/lib'
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/result_viewer/bin'
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/result_viewer/lib/pkgconfig/result_viewer.pc'
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/result_viewer/lib/python3.10/site-packages'
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/result_viewer/bin'
+[1.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/package.ps1'
+[1.203s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/package.dsv'
+[1.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/package.sh'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/package.bash'
+[1.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/package.zsh'
+[1.218s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/colcon-core/packages/result_viewer)
+[1.222s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(result_viewer)
+[1.225s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/result_viewer' for CMake module files
+[1.227s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/result_viewer' for CMake config files
+[1.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('result_viewer', 'cmake_prefix_path')
+[1.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/hook/cmake_prefix_path.ps1'
+[1.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/hook/cmake_prefix_path.dsv'
+[1.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/hook/cmake_prefix_path.sh'
+[1.235s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/result_viewer/lib'
+[1.235s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/result_viewer/bin'
+[1.235s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/result_viewer/lib/pkgconfig/result_viewer.pc'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/result_viewer/lib/python3.10/site-packages'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/result_viewer/bin'
+[1.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/package.ps1'
+[1.247s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/package.dsv'
+[1.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/package.sh'
+[1.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/package.bash'
+[1.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/package.zsh'
+[1.251s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/colcon-core/packages/result_viewer)
+[1.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lemon/Documents/detect_ros2_ws/build/video_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lemon/Documents/detect_ros2_ws/build/video_publisher -- -j2 -l2
+[1.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lemon/Documents/detect_ros2_ws/build/video_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lemon/Documents/detect_ros2_ws/build/video_publisher
+[1.279s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(video_publisher)
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/video_publisher' for CMake module files
+[1.281s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/video_publisher' for CMake config files
+[1.281s] Level 1:colcon.colcon_core.shell:create_environment_hook('video_publisher', 'cmake_prefix_path')
+[1.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lemon/Documents/detect_ros2_ws/build/video_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lemon/Documents/detect_ros2_ws/build/video_publisher
+[1.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/hook/cmake_prefix_path.ps1'
+[1.283s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/hook/cmake_prefix_path.dsv'
+[1.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/hook/cmake_prefix_path.sh'
+[1.285s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/video_publisher/lib'
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/video_publisher/bin'
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/video_publisher/lib/pkgconfig/video_publisher.pc'
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/video_publisher/lib/python3.10/site-packages'
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/video_publisher/bin'
+[1.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/package.ps1'
+[1.288s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/package.dsv'
+[1.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/package.sh'
+[1.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/package.bash'
+[1.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/package.zsh'
+[1.292s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/colcon-core/packages/video_publisher)
+[1.293s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(video_publisher)
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/video_publisher' for CMake module files
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/video_publisher' for CMake config files
+[1.295s] Level 1:colcon.colcon_core.shell:create_environment_hook('video_publisher', 'cmake_prefix_path')
+[1.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/hook/cmake_prefix_path.ps1'
+[1.296s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/hook/cmake_prefix_path.dsv'
+[1.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/hook/cmake_prefix_path.sh'
+[1.298s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/video_publisher/lib'
+[1.298s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/video_publisher/bin'
+[1.298s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/video_publisher/lib/pkgconfig/video_publisher.pc'
+[1.298s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/video_publisher/lib/python3.10/site-packages'
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/lemon/Documents/detect_ros2_ws/install/video_publisher/bin'
+[1.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/package.ps1'
+[1.300s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/package.dsv'
+[1.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/package.sh'
+[1.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/package.bash'
+[1.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/package.zsh'
+[1.304s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/colcon-core/packages/video_publisher)
+[1.306s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.306s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.306s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.306s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.312s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.313s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.313s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.342s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.343s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lemon/Documents/detect_ros2_ws/install/local_setup.ps1'
+[1.346s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lemon/Documents/detect_ros2_ws/install/_local_setup_util_ps1.py'
+[1.355s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lemon/Documents/detect_ros2_ws/install/setup.ps1'
+[1.357s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lemon/Documents/detect_ros2_ws/install/local_setup.sh'
+[1.358s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lemon/Documents/detect_ros2_ws/install/_local_setup_util_sh.py'
+[1.362s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lemon/Documents/detect_ros2_ws/install/setup.sh'
+[1.367s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lemon/Documents/detect_ros2_ws/install/local_setup.bash'
+[1.369s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lemon/Documents/detect_ros2_ws/install/setup.bash'
+[1.371s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lemon/Documents/detect_ros2_ws/install/local_setup.zsh'
+[1.373s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lemon/Documents/detect_ros2_ws/install/setup.zsh'

@@ -1,0 +1,25 @@
+[0.022s] Invoking command in '/home/lemon/Documents/detect_ros2_ws/build/object_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lemon/Documents/detect_ros2_ws/build/object_detector -- -j2 -l2
+[0.119s] [ 50%] [32mBuilding CXX object CMakeFiles/object_detection_node.dir/src/object_detection_node.cpp.o[0m
+[9.161s] [100%] [32m[1mLinking CXX executable object_detection_node[0m
+[10.334s] [100%] Built target object_detection_node
+[10.362s] Invoked command in '/home/lemon/Documents/detect_ros2_ws/build/object_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lemon/Documents/detect_ros2_ws/build/object_detector -- -j2 -l2
+[10.364s] Invoking command in '/home/lemon/Documents/detect_ros2_ws/build/object_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lemon/Documents/detect_ros2_ws/build/object_detector
+[10.373s] -- Install configuration: ""
+[10.373s] -- Installing: /home/lemon/Documents/detect_ros2_ws/install/object_detector/lib/object_detector/object_detection_node
+[10.378s] -- Set runtime path of "/home/lemon/Documents/detect_ros2_ws/install/object_detector/lib/object_detector/object_detection_node" to ""
+[10.379s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/ament_index/resource_index/package_run_dependencies/object_detector
+[10.379s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/ament_index/resource_index/parent_prefix_path/object_detector
+[10.379s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/environment/ament_prefix_path.sh
+[10.381s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/environment/ament_prefix_path.dsv
+[10.381s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/environment/path.sh
+[10.381s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/environment/path.dsv
+[10.381s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/local_setup.bash
+[10.381s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/local_setup.sh
+[10.381s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/local_setup.zsh
+[10.381s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/local_setup.dsv
+[10.381s] -- Installing: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/package.dsv
+[10.383s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/ament_index/resource_index/packages/object_detector
+[10.383s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/cmake/object_detectorConfig.cmake
+[10.383s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/cmake/object_detectorConfig-version.cmake
+[10.383s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/object_detector/share/object_detector/package.xml
+[10.384s] Invoked command in '/home/lemon/Documents/detect_ros2_ws/build/object_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lemon/Documents/detect_ros2_ws/build/object_detector

@@ -69,8 +69,7 @@ void VideoPublisher::run() {
         }
 
         // 发布图像消息
-        auto msg = cv_bridge::CvImage(
-            std_msgs::msg::Header(), "bgr8", frame).toImageMsg();
+        auto msg = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", frame).toImageMsg();
         image_pub_.publish(*msg);
 
         rclcpp::spin_some(shared_from_this());

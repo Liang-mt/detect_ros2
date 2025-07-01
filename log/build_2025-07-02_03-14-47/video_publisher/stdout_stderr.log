@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target video_publisher_node[0m
+[100%] Built target video_publisher_node
+-- Install configuration: ""
+-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/lib/video_publisher/video_publisher_node
+-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/ament_index/resource_index/package_run_dependencies/video_publisher
+-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/ament_index/resource_index/parent_prefix_path/video_publisher
+-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/environment/ament_prefix_path.sh
+-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/environment/path.sh
+-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/environment/path.dsv
+-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/local_setup.bash
+-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/local_setup.sh
+-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/local_setup.zsh
+-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/local_setup.dsv
+-- Installing: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/package.dsv
+-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/ament_index/resource_index/packages/video_publisher
+-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/cmake/video_publisherConfig.cmake
+-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/cmake/video_publisherConfig-version.cmake
+-- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/package.xml
