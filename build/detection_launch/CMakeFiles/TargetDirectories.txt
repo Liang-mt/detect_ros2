@@ -1,0 +1,9 @@
+/home/lemon/Documents/detect_ros2_ws/build/detection_launch/CMakeFiles/uninstall.dir
+/home/lemon/Documents/detect_ros2_ws/build/detection_launch/CMakeFiles/detection_launch_uninstall.dir
+/home/lemon/Documents/detect_ros2_ws/build/detection_launch/CMakeFiles/test.dir
+/home/lemon/Documents/detect_ros2_ws/build/detection_launch/CMakeFiles/edit_cache.dir
+/home/lemon/Documents/detect_ros2_ws/build/detection_launch/CMakeFiles/rebuild_cache.dir
+/home/lemon/Documents/detect_ros2_ws/build/detection_launch/CMakeFiles/list_install_components.dir
+/home/lemon/Documents/detect_ros2_ws/build/detection_launch/CMakeFiles/install.dir
+/home/lemon/Documents/detect_ros2_ws/build/detection_launch/CMakeFiles/install/local.dir
+/home/lemon/Documents/detect_ros2_ws/build/detection_launch/CMakeFiles/install/strip.dir

@@ -1,0 +1,10 @@
+/home/lemon/Documents/detect_ros2_ws/build/video_publisher/CMakeFiles/uninstall.dir
+/home/lemon/Documents/detect_ros2_ws/build/video_publisher/CMakeFiles/video_publisher_uninstall.dir
+/home/lemon/Documents/detect_ros2_ws/build/video_publisher/CMakeFiles/video_publisher_node.dir
+/home/lemon/Documents/detect_ros2_ws/build/video_publisher/CMakeFiles/test.dir
+/home/lemon/Documents/detect_ros2_ws/build/video_publisher/CMakeFiles/edit_cache.dir
+/home/lemon/Documents/detect_ros2_ws/build/video_publisher/CMakeFiles/rebuild_cache.dir
+/home/lemon/Documents/detect_ros2_ws/build/video_publisher/CMakeFiles/list_install_components.dir
+/home/lemon/Documents/detect_ros2_ws/build/video_publisher/CMakeFiles/install.dir
+/home/lemon/Documents/detect_ros2_ws/build/video_publisher/CMakeFiles/install/local.dir
+/home/lemon/Documents/detect_ros2_ws/build/video_publisher/CMakeFiles/install/strip.dir

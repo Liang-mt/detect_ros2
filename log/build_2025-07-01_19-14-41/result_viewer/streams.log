@@ -1,0 +1,22 @@
+[0.016s] Invoking command in '/home/lemon/Documents/detect_ros2_ws/build/result_viewer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lemon/Documents/detect_ros2_ws/build/result_viewer -- -j2 -l2
+[0.154s] [100%] Built target result_viewer_node
+[0.194s] Invoked command in '/home/lemon/Documents/detect_ros2_ws/build/result_viewer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lemon/Documents/detect_ros2_ws/build/result_viewer -- -j2 -l2
+[0.194s] Invoking command in '/home/lemon/Documents/detect_ros2_ws/build/result_viewer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lemon/Documents/detect_ros2_ws/build/result_viewer
+[0.212s] -- Install configuration: ""
+[0.216s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/lib/result_viewer/result_viewer_node
+[0.221s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/ament_index/resource_index/package_run_dependencies/result_viewer
+[0.221s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/ament_index/resource_index/parent_prefix_path/result_viewer
+[0.221s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/environment/ament_prefix_path.sh
+[0.221s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/environment/ament_prefix_path.dsv
+[0.221s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/environment/path.sh
+[0.221s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/environment/path.dsv
+[0.221s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/local_setup.bash
+[0.221s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/local_setup.sh
+[0.221s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/local_setup.zsh
+[0.221s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/local_setup.dsv
+[0.221s] -- Installing: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/package.dsv
+[0.221s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/ament_index/resource_index/packages/result_viewer
+[0.233s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/cmake/result_viewerConfig.cmake
+[0.233s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/cmake/result_viewerConfig-version.cmake
+[0.233s] -- Up-to-date: /home/lemon/Documents/detect_ros2_ws/install/result_viewer/share/result_viewer/package.xml
+[0.234s] Invoked command in '/home/lemon/Documents/detect_ros2_ws/build/result_viewer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lemon/Documents/detect_ros2_ws/build/result_viewer

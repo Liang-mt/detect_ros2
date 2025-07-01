@@ -1,0 +1,16 @@
+/home/lemon/Documents/detect_ros2_ws/install/video_publisher/lib/video_publisher/video_publisher_node
+/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/ament_index/resource_index/package_run_dependencies/video_publisher
+/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/ament_index/resource_index/parent_prefix_path/video_publisher
+/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/environment/ament_prefix_path.sh
+/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/environment/ament_prefix_path.dsv
+/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/environment/path.sh
+/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/environment/path.dsv
+/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/local_setup.bash
+/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/local_setup.sh
+/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/local_setup.zsh
+/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/local_setup.dsv
+/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/package.dsv
+/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/ament_index/resource_index/packages/video_publisher
+/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/cmake/video_publisherConfig.cmake
+/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/cmake/video_publisherConfig-version.cmake
+/home/lemon/Documents/detect_ros2_ws/install/video_publisher/share/video_publisher/package.xml

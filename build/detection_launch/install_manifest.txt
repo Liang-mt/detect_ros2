@@ -1,0 +1,16 @@
+/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/launch/detection.launch.py
+/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/ament_index/resource_index/package_run_dependencies/detection_launch
+/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/ament_index/resource_index/parent_prefix_path/detection_launch
+/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/environment/ament_prefix_path.sh
+/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/environment/ament_prefix_path.dsv
+/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/environment/path.sh
+/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/environment/path.dsv
+/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/local_setup.bash
+/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/local_setup.sh
+/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/local_setup.zsh
+/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/local_setup.dsv
+/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/package.dsv
+/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/ament_index/resource_index/packages/detection_launch
+/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/cmake/detection_launchConfig.cmake
+/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/cmake/detection_launchConfig-version.cmake
+/home/lemon/Documents/detect_ros2_ws/install/detection_launch/share/detection_launch/package.xml
